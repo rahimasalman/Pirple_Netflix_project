@@ -451,7 +451,53 @@ body{
 /**Media Rules*/
 
 
-@media (min-width: 250px) and (max-width: 980px) 
+@media (min-width: 250px) and (max-width: 980px) {
+  .logo{
+    float: left;
+    width: 22%;
+    height: auto;
+    fill: #f70713;
+    line-height: normal;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem ;
+    z-index: -18865;
+    font-size: 3rem;
+  }
+
+#button{
+
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 2rem;
+  float: right;
+  border-radius: 4.5px;
+  margin-top: 1.5em;
+  direction: ltr;
+  margin-right: 2.5rem ;
+  z-index: -189856;
+
+}
+
+#button > a:link, a:visited {
+  background-color:  #e50914;;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  text-decoration: none;
+}
+
+#button > a:hover, a:active {
+  background-color: red;
+}
+
+.big-text{
+  font-size: 3.250rem;
+  margin-top:70%;
+}
 
   .container1 {
     display: flex;
@@ -498,6 +544,403 @@ body{
   .faq-questions {
     width: 100%;
     min-height: 75px;
+  }
+
+  /** texts in the middle*/
+
+  .texts{
+    position: relative;
+      width: 100%;
+      height: 100vh;
+      padding: 200px 0;
+      max-width: 950px;
+      margin: 0 auto;
+      text-align: center;
+      color: #ffffff;
+      z-index: 1;
+      vertical-align: none !important;
+  
+  }
+  
+  .medium-text{
+    font-size:3.2rem;
 
   }
+  
+  .small-text{ 
+    color: white;
+    max-width: none;
+    text-align: center;
+    font-size: 3.2rem; 
+    padding-top: 20px;
+    font-size:2.5rem;
+  }  
+  
+  .small-text h3 {
+  
+    padding-bottom: 15px;
+    max-width: 450px;
+    font-weight: 400;
+  
+  }
+  
+  /** / texts in the middle*/
+  
+  
+  /** EMAIL AND SUBSCRIBTION BUTTONS*/
+  
+  .email.button{
+    text-align: center;
+    
+    
+  }
+  
+  #horizontal-list{
+    display: inline;
+  
+   
+  }
+  #horizontal-list li {
+    display: inline;
+  }
+  
+  
+  .email-text{
+  
+    margin-top:12px;
+    width: 450px;
+    height: 52px !important;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 4.5px;
+    z-index: -189856;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    appearance: none;
+  }
+  
+  .btn{
+    
+    margin-top:12px;
+    background-color: #b58a8c;
+    line-height: normal !important;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 4.5px;
+    width: 250px;
+    height: 52px !important;
+    z-index: -189856;
+   vertical-align: baseline !important;
+  }
+  
+  .btn > a:link, a:visited {
+    background-color:  #e50914;;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn > a:hover, a:active {
+    background-color: red;
+  }
+  
+  /** / EMAIL AND SUBSCRIBTION BUTTONS*/
+  
+  .s-text{ 
+    color: white;
+    max-width: none;
+    text-align: center;
+    font-size: 2rem; 
+    padding-top: 10px;
+  }  
+  
+  .s-text h3 {
+  
+    padding-bottom: 18px;
+    max-width: 450px;
+    font-weight: 400;
+  
+  }
+  
+  /** Second part */
+  .firstblack-background{
+    width: 100%;
+    height: 50vh;
+      padding: 70px 45px;
+      position: relative;
+      border-bottom: 8px solid #222;
+      padding: 50px 5%;
+      margin-bottom: 0;
+      background: 0 0;
+      color: #fff;
+     background-color: black;
+  }
+  
+  .second-text{
+    
+      max-width: 1100px;
+      margin: 0 auto;
+      display: block;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      justify-content: space-between;
+      margin-top:10%;
+      text-align: center;
+  
+  }
+  
+ 
+
+  .second-text > .medium-text {
+  
+      font-size: 3rem;
+      font-weight: 400;
+  }
+  
+  .second-text > h2 {
+    margin: .75em 0 .25em;
+  }
+  
+  .second-text img {
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    object-fit: contain;
+    object-position: center;
+    align-self: center;
+    max-width: 100%;
+    height: 500px;
+  }
+  
+  .second {
+    color: white;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: center;
+  }
+  .second p {
+    font-size: 2.5rem;
+    margin-top: 5px;
+  }
+  
+  .second h1 {
+    font-size: 3.5rem;
+  }
+
+  .image{
+    display:block;
+    text-align: center;
+    margin-left:28%;
+  }
+
+  /**End of Second division*/
+  
+  /** THird section*/
+  
+  .secondblack-background{
+    width: 100%;
+    height: 50vh;
+      padding: 70px 45px;
+      position: relative;
+      border-bottom: 8px solid #222;
+      padding: 50px 5%;
+      margin-bottom: 0;
+      background: 0 0;
+      color: #fff;
+     background-color: black;
+  }
+  
+  .container1 img {
+    max-width: 100%;
+    height: 500px;
+  }
+  
+  .container1 .image {
+    display: relative;
+   
+  }
+  .third-item-video{
+    margin-top:40%;
+    margin-right:52%;
+  }
+  
+ container: { display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+  }
+  .text p {
+    font-size: 2.5rem;
+    margin-top: 5px;
+  }
+  
+  .text h1 {
+    font-size: 3.125rem;
+  }
+  
+  /** End of Third section*/
+  
+  /** FIFTH SECTION*/
+  
+  
+  .faq-questions{
+    font-size: 1rem;
+    text-align: center;
+    color:#fff;
+  }
+  
+  .faq-items{
+    list-style-type: none;
+    margin: 0 0 8px 0; 
+  }
+  .faq-questions {
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+      padding: 70px 45px;
+      position: relative;
+      border-bottom: 8px solid #222;
+      padding: 50px 5%;
+      margin-bottom: 0;
+      background: 0 0;
+      color: #fff;
+     background-color: black;
+  }
+  
+  .faq-question h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .faq-items {
+    width: 51%;
+    height: 75px;
+    background-color: #303030;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    margin: 5px 0;
+  }
+  
+  .faq-items .faq-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    font-size: 18px;
+    padding-left: 35px;
+    margin: 0 auto;
+    word-spacing: 2px;
+  }
+  
+  .faq-items i {
+    margin: 0 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .faq-items:focus {
+    background-color: red;
+  }
+  
+
+  .email-text{
+    margin-bottom:25%;
+  }
+  /**END OF FIFTH SECTION*/
+  
+  
+  
+  /**FOOTER**/
+  .footer-style{
+      width: 100%;
+      height: 30vh;
+      position: relative;
+      border-bottom: 8px solid #222;
+      margin-bottom: 0;
+      background: 0 0;
+      color: #fff;
+      background-color: black;
+      border-bottom: none;
+      padding-bottom: 10%;
+      color: rgb(172, 168, 168);
+      text-decoration: none;
+      
+     
+  }
+
+
+  .footer-top a {
+    padding-top:50%;
+    text-decoration: none;
+    color:rgb(112, 106, 106);
+  
+  }
+  
+.footer-top{
+  margin-top:10%;
+}
+  .footer-link{
+    text-decoration: none;
+    color: rgb(112, 106, 106);
+  }
+  .footer-style > ul> li {
+      list-style: none;
+    }
+  
+    .footer-link-item{
+      
+      text-decoration: none;
+      box-sizing: border-box;
+      display: inline-block;
+      min-width: 100px;
+      width: 25%;
+      padding-right: 12px;
+      vertical-align: top;
+  }
+  
+  .lang-selection-container{
+    padding-bottom: 10px;
+  }
+  /**End of FOOTER*/
+
+}
+
+
+
+
